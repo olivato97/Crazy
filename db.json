@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "nomeCameriere": "Cucina",
+      "ordini": [
+        265,
+        345,
+        15
+      ],
+      "cucina": true,
+      "id": 1
+    },
+    {
+      "Nome": "marco",
+      "Tavolo": 1,
+      "id": 2,
+      "Ordini": [
+        65,
+        75
+      ],
+      "Cucina": false
+    },
+    {
+      "Nome": "marco",
+      "Tavolo": 3,
+      "id": 3,
+      "Ordini": [
+        30,
+        45
+      ],
+      "Cucina": false
+    },
+    {
+      "Nome": "marco",
+      "Tavolo": 4,
+      "id": 4,
+      "Ordini": [
+        55,
+        100
+      ],
+      "Cucina": false
+    },
+    {
+      "Nome": "marco",
+      "Tavolo": 5,
+      "id": 5,
+      "Ordini": [
+        0,
+        0
+      ],
+      "Cucina": false
+    },
+    {
+      "Nome": "marco",
+      "Ordini": [
+        5,
+        5
+      ],
+      "Tavolo": 6,
+      "Piano": "",
+      "cucina": false,
+      "id": 6
+    }
+  ]
+}
