@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-    baseURL: `http://192.168.1.97:3000`,
+    baseURL: `http://192.168.1.118:3000`,
     withCredentials: false, // This is the default
     headers: {
         Accept: 'application/json',
@@ -18,6 +18,9 @@ export default {
     },
     getEventsComplOrdini() {
         return apiClient.get('/products?Cucina=false')
+    },
+    getEventsFilterOrdini(name) {
+        return apiClient.get('/products?Cucina=false&&Nome=' + name)
     },
     postEventsOrdini(data) {
         return apiClient.post('/products', data)

@@ -3,7 +3,7 @@
     {
       "nomeCameriere": "Cucina",
       "ordini": [
-        300,
+        265,
         345,
         15
       ],
@@ -15,8 +15,8 @@
       "Tavolo": 1,
       "id": 2,
       "Ordini": [
-        10,
-        15
+        65,
+        75
       ],
       "Cucina": false
     },
@@ -25,8 +25,8 @@
       "Tavolo": 3,
       "id": 3,
       "Ordini": [
-        0,
-        20
+        30,
+        45
       ],
       "Cucina": false
     },
@@ -35,7 +35,7 @@
       "Tavolo": 4,
       "id": 4,
       "Ordini": [
-        0,
+        55,
         100
       ],
       "Cucina": false
@@ -60,33 +60,6 @@
       "Piano": "",
       "cucina": false,
       "id": 6
-    },
-    {
-      "Nome": "",
-      "id": 7,
-      "Ordini": [
-        0,
-        0
-      ],
-      "Cucina": false
-    },
-    {
-      "Nome": "",
-      "Ordini": [
-        0,
-        0
-      ],
-      "Cucina": false,
-      "id": 8
-    },
-    {
-      "Nome": "",
-      "Ordini": [
-        0,
-        0
-      ],
-      "Cucina": false,
-      "id": 9
     }
   ]
 }
